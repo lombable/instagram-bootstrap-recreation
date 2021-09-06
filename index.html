@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Instagram feed bootstrap</title>
+  </head>
+
+  <body>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn-close"
+              aria-label="Close"
+              data-bs-dismiss="modal"
+
+            >
+          </button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group">
+              <textarea
+                class="form-control"
+                aria-label="With textarea"
+              ></textarea>
+            </div>
+            <img
+              class="camera-icon pt-1"
+              src="./img/Technology_Camera_1 copy 22.png"
+            />
+            <img class="location-icon pt-1" src="img/location_105096.png" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success">Publish post</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-light fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto p2 ps-4 instagram-nav-text" href="#">
+          <img
+            src="./img/brand_instagram_icon_151534.png"
+            alt="instagram icon"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Instagram
+        </a>
+        <div class="navbar-nav ms-auto p-2">
+          <button
+            type="button"
+            class="btn btn-success ms-auto mb-2 mb-lg-0"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Create a new post
+          </button>
+        </div>
+        <div class="btn-group pe-4">
+          <button
+            class="btn dropdown-toggle p-2"
+            type="button"
+            id="defaultDropdown"
+            data-bs-toggle="dropdown"
+            data-bs-auto-close="true"
+            aria-expanded="false"
+          >
+            <img class="cogwheel" src="./img/cogwheel_114848.png" />
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><a class="dropdown-item" href="#">Menu item</a></li>
+            <li><a class="dropdown-item" href="#">Menu item</a></li>
+            <li><a class="dropdown-item" href="#">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled"></li>
+        <li class="page-item"><a class="page-link" href="./index.html">-</a></li>
+        <li class="page-item"><a class="page-link" href="./partedos.html">-</a></li>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-md-6 offset-3 py-0">
+            <div class="card">
+              <div class="card-header">
+                <div class="row">
+                  <div class="col">
+                    <h4 class="h4">
+                      My first post
+                    </h4>
+                  </div>
+                  <div class="col text-end">
+                    <h4 class="h4">14/07</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <img src="./img/Blog_Post_Chile.jpg" class="card-img-top" alt="costanera-chile"> 
+              </div>
+              <div class="card-footer">
+                <p class="card-text p-1 h6">Liked by <b>4GeeksAcademy</b> and <b>23 others</b>.</p>
+                <p class="card-text px-1 py-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="container px-1 pb-1">
+                    <div class="row">
+                      <div class="col">
+                        <img src="./img/heart.png" class="heart-icon">
+                      </div>
+                        <div class="col-9">
+                            Comment...
+                        </div>
+                      <div class="col">
+                      <img src="./img/3-dots-icon-9.jpg" class="three-dots-icon text-end">
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-md-6 offset-3 py-1">
+          <div class="card">
+            <div class="card-header">
+              <div class="row">
+                <div class="col">
+                  <h4 class="h4">
+                    Yummy colors
+                  </h4>
+                </div>
+                <div class="col text-end">
+                  <h4 class="h4">14/07</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-body p-0">
+              <img src="./img/HF170321_ExtraShot_47_DE_Colorful-veggie-recipes-from-the-oven-5_low.jpg" class="card-img-top" alt="colorful-veggies"> 
+            </div>
+            <div class="card-footer">
+              <p class="card-text p-1 h6">Liked by <b>4GeeksAcademy</b> and <b>23 others</b>.</p>
+              <p class="card-text px-1 py-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="container px-1 pb-1">
+                  <div class="row">
+                    <div class="col">
+                      <img src="./img/heart.png" class="heart-icon">
+                    </div>
+                      <div class="col-9">
+                          Comment...
+                      </div>
+                    <div class="col">
+                    <img src="./img/3-dots-icon-9.jpg" class="three-dots-icon text-end">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-md-6 offset-3 py-1">
+            <div class="card">
+              <div class="card-header">
+                <div class="row">
+                  <div class="col">
+                    <h4 class="h4">
+                      Australian beaches!
+                    </h4>
+                  </div>
+                  <div class="col text-end">
+                    <h4 class="h4">14/07</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <img src="./img/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg" class="card-img-top" alt="181010131059-australia-best-beaches-cossies-beach-cocos3"> 
+              </div>
+              <div class="card-footer">
+                <p class="card-text p-1 h6">Liked by <b>4GeeksAcademy</b> and <b>23 others</b>.</p>
+                <p class="card-text px-1 py-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="container px-1 pb-1">
+                    <div class="row">
+                      <div class="col">
+                        <img src="./img/heart.png" class="heart-icon">
+                      </div>
+                        <div class="col-9">
+                            Comment...
+                        </div>
+                      <div class="col">
+                      <img src="./img/3-dots-icon-9.jpg" class="three-dots-icon text-end">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
